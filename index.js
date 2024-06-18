@@ -20,5 +20,5 @@ ecartServer.listen(port,() => {
 })
 
 ecartServer.get('/',(req,res) => {
-    console.log('E-Cart Server Started');
+    res.send('E-Cart Server Started');
 })
